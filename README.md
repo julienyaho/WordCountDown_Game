@@ -5,7 +5,8 @@
 
 | Description | Code |
 |---| ---|
-| '*I first create a Global Variables whis are:-*' | 'words =[]'|
+| '*I first create a Global Variables whis are:-*' | 
+                                                    |'words =[]'|
                                                    | letters=[] |
                                                | vowels="aeiou" |
                            | consonants="bcdfghjklmnpqrstvwxyz" |
