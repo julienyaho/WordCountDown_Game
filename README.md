@@ -1,7 +1,7 @@
 # WordCountDown_Game
 
 ##Global variables
-| I first create a Global Variables whis are:- |
+| I first create a *Global Variables* as show below:- |
 
 | Description | Code |
 |---| ---|
