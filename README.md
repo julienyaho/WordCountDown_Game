@@ -3,7 +3,9 @@
 ##Global variables
 | I first create a Global Variables whis are:- |
 
-| words =[] |
+| Description | Code |
+|---| ---|
+| 'I first create a Global Variables whis are:-' | 'words =[]'|
 | letters=[] |
 | vowels="aeiou" |
 | consonants="bcdfghjklmnpqrstvwxyz" |
