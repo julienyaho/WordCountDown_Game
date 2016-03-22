@@ -1,11 +1,11 @@
 # WordCountDown_Game
 
 ##Global variables
--I first create a Global Variables whis are:-
+| I first create a Global Variables whis are:- |
 
--words =[]
--letters=[]
--vowels="aeiou"
--consonants="bcdfghjklmnpqrstvwxyz"
--l="abcdefghijklmnopqrstuvwxyz"
--c=0
+| words =[] |
+| letters=[] |
+| vowels="aeiou" |
+| consonants="bcdfghjklmnpqrstvwxyz" |
+| l="abcdefghijklmnopqrstuvwxyz" |
+| c=0 |
