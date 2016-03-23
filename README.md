@@ -1,5 +1,5 @@
 # WordCountDown_Game
-* Theory Of Algorithms
+**_Theory Of Algorithms_**
 
 ##Project Brief
 * You are required to create two pieces: a Python script that solves the Countdown letters game, and a document explaining how your solver works. The Countdown letters game is as detailed on Wikipedia. Esentially, you are given a list of nine random letters which contains at least three vowels and four consonants. You must find the longest possible word in the Oxford English dictionary that is an anagram of some or all of the letters in the random list. If there is more than one word of longest length, then each is as acceptable a solution as the others.
@@ -20,7 +20,7 @@
 
 | Description | Code |
 | :---| :---|
-| `*I first create a Global Variables whis are:-*` | 
+| `*I first create a Global Variables which are:-*` | 
 | `*List of word that matches and reach requiremen*`      |`*words =[]`|
 | `*This is random generated word*`                      |`*letters=[]`|
 | `*Set of Vowels*`                                  |`*vowels="aeiou"`|
@@ -28,27 +28,33 @@
 | `*Set of all vowels & consonants*`| `*l="abcdefghijklmnopqrstuvwxyz"`|
                                                         
 
-* def Wordcheck():
+**def Wordcheck():**
 * Function that checks words in dictionary and prints word with most letters in it 
 
 ######Variables
-  | Code |
-  | :--- |
-  |`*counter = 0`|
-  |`*longest_word = ""`|
-  |`*characters = 0`|
-  |`*result =[]`|
+  ```
+  counter = 0
+  longest_word = ""
+  characters = 0
+  result =[]
+  ```
+  
+**_Description_**                                      ||                                     **_Code_**
+
+1. This open the dictionary in my project and then Read it                      ||   **f = open('wordsList.txt','r')**
+2. This is a Loop                                                               ||   **_while True:_**
+3. this read every line in the dictionary                                       ||   **_word = f.readline()_**
+4. If word is empty is goes to the next line and read it                        ||   **_if word == "":_**
+5. This Break line terminates the current loop                                  ||   **_break;_**
+6. Else put word in the list                                                    ||   **_words.append(word)_**
   
   
   
-  
-  
-  
-## How to Runner this Program
+### **_How to Runner this Program_**
 
   * When you download my project 
-  * Open it on *Nope Pad* and right it on and *Click Open containing floder* in Cmd
-  * When Cmd open type in *python wordcountdown2.py*
+  * Open it on **_Nope Pad_** and right it on and **_Click Open containing floder_** in Cmd
+  * When Cmd open type in **_python wordcountdown2.py_**
   * It will bring up the Longest Word and the Longest Number of the Word
   
 
