@@ -1,6 +1,6 @@
 # WordCountDown_Game
 **_Theory Of Algorithms_**
-
+####Introduction
 ##Project Brief
 * You are required to create two pieces: a Python script that solves the Countdown letters game, and a document explaining how your solver works. The Countdown letters game is as detailed on Wikipedia. Esentially, you are given a list of nine random letters which contains at least three vowels and four consonants. You must find the longest possible word in the Oxford English dictionary that is an anagram of some or all of the letters in the random list. If there is more than one word of longest length, then each is as acceptable a solution as the others.
 
@@ -14,7 +14,10 @@
 
 * Add to your Python script a function to test your algorithm, which creates a random list of nine letters as they would be             generated in Countdown.
 
-####Introduction
+###Project Name: wordcountdown2.py
+
+###Language use: Python
+
 #####Global variables
 | I first create a *Global Variables* as show below:- |
 
@@ -31,13 +34,6 @@
 **def Wordcheck():**
 * Function that checks words in dictionary and prints word with most letters in it 
 
-######Variables
-  ```
-  counter = 0
-  longest_word = ""
-  characters = 0
-  result =[]
-  ```
   
 **_Description_**                                      ||                                     **_Code_**
 
@@ -47,9 +43,29 @@
 4. If word is empty is goes to the next line and read it                        ||   **_if word == "":_**
 5. This Break line terminates the current loop                                  ||   **_break;_**
 6. Else put word in the list                                                    ||   **_words.append(word)_**
+7. This closes the file                                                         ||   **_f.close()_**
   
-  
-  
+```python
+    for word in words: #check every word in list.
+        for letter in letters: # this do a looping from vowels & consonants.
+            if letter in word: 
+                characters += 1   #increment num of characters by 1.
+        if(characters > counter):#this print the word & the len of theword.
+            if(characters == (len(word)-1)):
+                
+                counter = characters 
+                longest_word = word #this len of the word.
+                result.append(set(longest_word))#this put the words in the list.
+        characters = 0   #num letters reset to 0.
+    #print(result)
+    print("Longest word is: ", longest_word) #This print out the longest word. 
+    print("Longest len is: ", len(longest_word)-1) #This print out the longest word number.      
+#Dictionary()
+Wordcheck()
+
+```
+
+
 ### **_How to Runner this Program_**
 
   * When you download my project 
