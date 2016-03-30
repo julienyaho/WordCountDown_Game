@@ -1,10 +1,10 @@
-# WordCountDown_Game
+#**_WordCountDown_Game_**
 **_Theory Of Algorithms_**
-####Introduction
-##Project Brief
+####**_Introduction_**
+##**_Project Brief_**
 * You are required to create two pieces: a Python script that solves the Countdown letters game, and a document explaining how your solver works. The Countdown letters game is as detailed on Wikipedia. Esentially, you are given a list of nine random letters which contains at least three vowels and four consonants. You must find the longest possible word in the Oxford English dictionary that is an anagram of some or all of the letters in the random list. If there is more than one word of longest length, then each is as acceptable a solution as the others.
 
-###Instructions
+###**_Instructions_**
 * Find a list of words in the Oxford English dictionary. This won't be too easy - you might need to join a few different files          together. You might even try scraping the Oxford Dictionary's website. If you write any scripts to do that, include them in your      submission.
 * Fork the GitHub gist template here. Note that you can use a GitHub gist the same way you would use any GitHub repository. Think       of it as a small, quick repository.
 
@@ -14,11 +14,11 @@
 
 * Add to your Python script a function to test your algorithm, which creates a random list of nine letters as they would be             generated in Countdown.
 
-###Project Name: wordcountdown2.py
+###**_Project Name_**: wordcountdown2.py
 
-###Language use: Python
+###**_Language use_**: Python
 
-#####Global variables
+#####**_Global variables_**
 | I first create a *Global Variables* as show below:- |
 
 | Description | Code |
