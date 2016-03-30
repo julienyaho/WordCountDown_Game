@@ -71,7 +71,10 @@ Wordcheck()
   * When you download my project 
   * Open it on **_Nope Pad_** and right it on and **_Click Open containing floder_** in Cmd
   * When Cmd open type in **_python wordcountdown2.py_**
+  * ![image](https://github.com/julienyaho/WordCountDown_Game/blob/master/Running_Program.PNG)
   * It will bring up the Longest Word and the Longest Number of the Word
+  * ![image](https://github.com/julienyaho/WordCountDown_Game/blob/master/Fully_Running.PNG)
+  
   
 ###**_References_**
 1. https://forums.taleworlds.com/index.php?topic=257150.msg6167190
