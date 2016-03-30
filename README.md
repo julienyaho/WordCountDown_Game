@@ -73,4 +73,7 @@ Wordcheck()
   * When Cmd open type in **_python wordcountdown2.py_**
   * It will bring up the Longest Word and the Longest Number of the Word
   
-
+###**_References_**
+1. https://forums.taleworlds.com/index.php?topic=257150.msg6167190
+2. http://stackoverflow.com/questions/29292133/how-to-count-down-in-for-loop-in-python
+3. https://www.youtube.com/watch?v=YV6qm6erphk
