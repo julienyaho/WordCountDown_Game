@@ -15,10 +15,9 @@
 * Add to your Python script a function to test your algorithm, which creates a random list of nine letters as they would be             generated in Countdown.
 
 ###**_Project Name_**: wordcountdown2.py
-
 ###**_Language use_**: Python
 
-#####**_Global variables_**
+####**_Global variables_**
 | I first create a *Global Variables* as show below:- |
 
 | Description | Code |
