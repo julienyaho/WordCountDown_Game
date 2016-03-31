@@ -39,9 +39,9 @@ def inputLetters(i):
     print(letters)
 
 
-#inputLetters(0)
+inputLetters(0)
 
-letters='uiuyhwdc'
+#letters='uiuyhwdc'
          
 #Function that checks words in dictionary and prints word with most letters in it.
 def Wordcheck():
