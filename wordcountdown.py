@@ -41,40 +41,41 @@ def inputLetters(i):
 
 inputLetters(0)
 
-#letters='uiuyhwdc'
+#letters='dythaoiue'
          
 #Function that checks words in dictionary and prints word with most letters in it.
 def Wordcheck():
    #variables
-   max_letters = 0
-   max_word = ""
-   num_letters = 0
-   result =[]
-   print(letters)
-   f = open('wordsList.txt','r') #this open the dictionary and it read it 
-   while True:
-      word = f.readline() #this read every line in the dictionary
-      if word == "": #if word is empty is goes to another line
-         break;
-      words.append(word) # else put word in the list
+	max_letters = 0
+	max_word = ""
+	num_letters = 0
+	result =[]
+	#print(letters)
+	f = open('wordsList.txt','r') #this open the dictionary and it read it 
+	while True:
+		word = f.readline() #this read every line in the dictionary
+		if word == "": #if word is empty is goes to another line
+			break;
+		words.append(word) # else put word in the list
  
-   f.close()
+	f.close()
 
-   
-   for word in words: #check every word in list
-      for let in letters: # this do a looping from vowels con
-         if let in word: 
-            num_letters = num_letters + 1   
-      if (num_letters > max_letters)and (num_letters == (len(word)-1)):#this print the word & the len of theword
-         print(word, len(word)-1,'\r') # this print out the word and the length of the word
-         max_letters = num_letters 
-         max_word = word #this len of the word 
-         result.append(set(max_word))#this put the words in the list
-      num_letters = 0   #num letters reset to 0
+	for word in words: #check every word in list
+		for let in letters: # this do a looping from vowels con
+			if let in word: 
+				num_letters = num_letters + 1  
+			
+		if num_letters > max_letters and num_letters == (len(word)-1):#this print the word & the len of theword
+			print(word, len(word)-1,'\r') # this print out the word and the length of the word
+			max_letters = num_letters 
+			max_word = word #this len of the word 
+			print("maxL",max_word, max_letters)
+        # result.append(set(max_word))#this put the words in the list
+		num_letters = 0   #num letters reset to 0
          
-   print()
-   print("Longest word is: ", max_word)
-   print("Longest len is: ", len(max_word)-1)       
+	print()
+	print("Longest word is: ", max_word)
+	print("Longest len is: ", len(max_word)-1)       
 #Dictionary()
 Wordcheck()
 time2 = time.time()
