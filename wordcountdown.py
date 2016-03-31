@@ -1,6 +1,8 @@
 import random
+import time
 
 #Global variables
+time1 = time.time()
 words =[]
 letters=[]
 vowels="aeiou"
@@ -75,3 +77,5 @@ def Wordcheck():
    print("Longest len is: ", len(max_word)-1)       
 #Dictionary()
 Wordcheck()
+time2 = time.time()
+print ('%s function took %0.3f ms' % (Wordcheck, (time2-time1)*1000.0))
